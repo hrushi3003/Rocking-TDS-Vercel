@@ -4,7 +4,8 @@ import urllib.parse
 
 # Load student data from the JSON file
 def load_data():
-    with open('./vercel.json', 'r') as file:
+    with open('Rocking-TDS-Vercel
+/vercel.json', 'r') as file:
         data = json.load(file)
     return data
 
